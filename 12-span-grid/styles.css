@@ -1,0 +1,33 @@
+body {
+    font-family: system-ui, serif;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+.span-12 {
+    background: lightpink;
+    grid-column: 1 / 13;
+}
+
+.span-6 {
+    background: lightblue;
+    grid-column: 1 / 7;
+}
+
+.span-4 {
+    background: coral;
+    grid-column: 4 / 9;
+}
+
+.span-2 {
+    background: yellow;
+    grid-column: 3 / 5;
+}
