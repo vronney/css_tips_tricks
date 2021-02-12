@@ -1,0 +1,14 @@
+body {
+    font-family: system-ui, serif;
+    display: grid;
+    height: 100vh;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+div {
+    display: grid;
+    place-items: center;
+    background: lightpink;
+    border-radius: 10px;
+}
