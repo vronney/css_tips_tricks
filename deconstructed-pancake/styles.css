@@ -5,17 +5,22 @@ body {
 .parent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .child {
-    /* flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+    /* flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'base-width'> ]
     If we DO want the items to stretch: */
     flex: 1 1 300px;
-    /* If you DON'T want the items to stretch
-    * flex: 0 1 300px;
-    */
+    /* If you DON'T want the items to stretch */
+    /* flex: 0 1 300px; */
     border: 1px solid red;
+    border-radius: 10px;
     background: lightpink;
     font-size: 2rem;
     text-align: center;
+    height: 300px;
+    margin: 5px;
+    display: grid;
+    place-items: center;
 }
